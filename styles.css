@@ -1,6 +1,5 @@
 *{
     scroll-behavior: smooth;
-    cursor: url(jujutsu-kaisen-sukuna-power-animated-custom-cursor\ \(1\).gif);
     margin: 0;
     padding: 0%;
 }
@@ -301,6 +300,10 @@ h4:hover{
 #image1{
     width:100px;
     height: 100px;
+        transition: transform 0.3s linear;
+}
+#image1:hover{
+    transform: scale(1.3);
 }
 .skills2{
     display: flex;
