@@ -126,46 +126,40 @@ position: sticky;
     }
 }
 @keyframes typing {
-    0%, 20% { content: ""; }
-    20%, 22% { content: "I"; }
-    22%, 24% { content: "I "; }
-    24%, 26% { content: "I A"; }
-    26%, 28% { content: "I AM"; }
-    28%, 30% { content: "I AM "; }
-    30%, 32% { content: "I AM A"; }
-    32%, 34% { content: "I AM A "; }
-    34%, 36% { content: "I AM A W"; }
-    36%, 38% { content: "I AM A WE"; }
-    38%, 40% { content: "I AM A WEB"; }
-    40%, 42% { content: "I AM A WEB "; }
-    42%, 44% { content: "I AM A WEB D"; }
-    44%, 46% { content: "I AM A WEB DE"; }
-    46%, 48% { content: "I AM A WEB DEV"; }
-    48%, 50% { content: "I AM A WEB DEVE"; }
-    50%, 52% { content: "I AM A WEB DEVEL"; }
-    52%, 54% { content: "I AM A WEB DEVELO"; }
-    54%, 56% { content: "I AM A WEB DEVELOP"; }
-    56%, 58% { content: "I AM A WEB DEVELOPE"; }
-    58%, 60% { content: "I AM A WEB DEVELOPER"; }
-    60%, 70% { content: "I AM A WEB DEVELOPER"; } 
-    
-    70%, 72% { content: ""; }
-    72%, 74% { content: "I"; }
-    74%, 76% { content: "I'"; }
-    76%, 78% { content: "I'M "; }
-    78%, 80% { content: "I'M V"; }
-    80%, 82% { content: "I'M VI"; }
-    82%, 84% { content: "I'M VIS"; }
-    84%, 86% { content: "I'M VISH"; }
-    86%, 88% { content: "I'M VISHN"; }
-    88%, 90% { content: "I'M VISHNU"; }
-    90%, 92% { content: "I'M VISHNU_"; }
-    92%, 94% { content: "I'M VISHNU_K"; }
-    94%, 96% { content: "I'M VISHNU_KV"; }
-    96%, 98% { content: "I'M VISHNU_KVV"; }
-    98%, 100% { content: "I'M VISHNU_KVVR"; }
-    100%, 110% { content: "I'M VISHNU_KVVR👋"; }
-  }
+  0%, 2%    { content: ""; }
+  2%, 4%    { content: "H"; }
+  4%, 6%    { content: "HE"; }
+  6%, 8%    { content: "HEL"; }
+  8%, 10%   { content: "HELL"; }
+  10%, 12%  { content: "HELLO"; }
+  12%, 14%  { content: "HELLO "; }
+  14%, 16%  { content: "HELLO W"; }
+  16%, 18%  { content: "HELLO WO"; }
+  18%, 20%  { content: "HELLO WOR"; }
+  20%, 22%  { content: "HELLO WORL"; }
+  22%, 24%  { content: "HELLO WORLD"; }
+  24%, 34%  { content: "HELLO WORLD"; }
+
+  34%, 36%  { content: ""; }
+  36%, 38%  { content: "T"; }
+  38%, 40%  { content: "TH"; }
+  40%, 42%  { content: "THI"; }
+  42%, 44%  { content: "THIS"; }
+  44%, 46%  { content: "THIS "; }
+  46%, 48%  { content: "THIS I"; }
+  48%, 50%  { content: "THIS IS"; }
+  50%, 52%  { content: "THIS IS "; }
+  52%, 54%  { content: "THIS IS V"; }
+  54%, 56%  { content: "THIS IS VI"; }
+  56%, 58%  { content: "THIS IS VIS"; }
+  58%, 60%  { content: "THIS IS VISH"; }
+  60%, 62%  { content: "THIS IS VISHN"; }
+  62%, 64%  { content: "THIS IS VISHNU"; }
+  64%, 74%  { content: "THIS IS VISHNU"; }
+
+  74%, 76%  { content: ""; }
+  76%, 100% { content: ""; }
+}
 
   @keyframes blink {
     0%, 100% { opacity: 1; }
@@ -423,3 +417,4 @@ h4:hover{
     justify-content: center;
     align-items: center;
 }
+
